@@ -1,6 +1,8 @@
 # eSign Webhook-to-CRM Bridge
 
-Microserviço HTTP em Python que recebe webhooks de plataformas de assinatura eletrônica (`doc_signed`, `doc_refused`, `doc_expired`), **valida a autenticidade criptográfica via HMAC-SHA256** (comparação em tempo constante contra *timing attacks*), aplica idempotência por `event_id` e atualiza automaticamente a etapa do negócio no CRM.
+![Interface eSign Webhook Bridge](docs/preview.png)
+
+Microserviço HTTP + **Console Criptográfico Web** em Python que recebe webhooks de plataformas de assinatura eletrônica (`doc_signed`, `doc_refused`, `doc_expired`), **valida a autenticidade criptográfica via HMAC-SHA256** (comparação em tempo constante contra *timing attacks*), aplica idempotência por `event_id` e atualiza automaticamente a etapa do negócio no CRM.
 
 ## Recursos
 
